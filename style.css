@@ -13,6 +13,5 @@ body{
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
-     align-content: space-between;
     gap: 30px;
 }
