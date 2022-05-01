@@ -12,9 +12,7 @@ body{
     width: 100%;
     height: 100vh;
     display: flex;
-    /* flex-direction: column; */
-    /* justify-content: center;  x-axis or main axis*/ 
     flex-wrap: wrap;
-    align-items: space-between; 
+     align-content: space-between;
     gap: 30px;
 }
