@@ -14,11 +14,11 @@ body{
     border: 5px solid salmon;
 
     display: flex;
-    flex-wrap: wrap;
-    /* flex-direction: row; */
+    flex-wrap: no-wrap;
+    flex-direction: row;
 }
 [class ^= "box-"]{
-    /* width: 100px; */
+    width: 100px;
     height: 100px;
     background-color: crimson;
     margin: 10px;
