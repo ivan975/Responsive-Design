@@ -1,0 +1,23 @@
+/* $gap:4vh;
+$padding:4vh;
+$color:#48CAE5; */
+
+/* mobile:480px;
+tablet:768px;
+desktop:1440px; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+.container{
+    display: flex;
+    gap: 4vh;
+    padding: 4vh;
+}
