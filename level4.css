@@ -36,7 +36,6 @@ body{
 [class^="block-"]{
     display: flex;
     gap: 4vh;
-   
     height: calc((100vh - 4vh*2- 4vh*2)/3);
 }
 
