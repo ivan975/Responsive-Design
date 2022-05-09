@@ -39,9 +39,3 @@ body{
     height: calc((100vh / 3) - 4vh - 4vh);
     gap: 4vh;    
 }
-@media (max-width:480px){
-    .container{
-        flex-direction: column;
-        height: 500px;
-    }
-}
