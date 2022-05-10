@@ -1,3 +1,6 @@
+/* $gap:4vh;
+$padding:4vh;
+$color:#48CAE5; */
 *{
     margin: 0;
     padding: 0;
@@ -8,4 +11,14 @@ body{
     font-size: 45px;
     width: 100%;
     min-height: 100vh;
+}
+[class^="box-"]{
+    display: grid;
+    background-color: #48CAE5;
+    place-items: center;
+}
+.container{
+    display: grid;
+    gap: 4vh;
+    grid-template-columns: 200px 100px auto 500px;
 }
