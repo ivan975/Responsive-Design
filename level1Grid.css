@@ -18,7 +18,14 @@ body{
     place-items: center;
 }
 .container{
+    min-height: 100vh;
     display: grid;
-    gap: 4vh;
-    grid-template-columns: 200px 100px auto 500px;
+    gap: 20px;
+    grid-template: repeat(2,200px) / repeat(2,200px);
+    /* justify-items: stretch; */
+    justify-content: center;
+    border: 5px solid salmon ;
 }
+/* .box-1{}
+.box-2{}
+.box-3{} */
