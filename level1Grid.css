@@ -22,9 +22,7 @@ body{
     display: grid;
     gap: 20px;
     grid-template: repeat(2,200px) / repeat(2,200px);
-    /* justify-items: stretch; */
-    justify-content: center;
-    border: 5px solid salmon ;
+    align-items: start;
 }
 /* .box-1{}
 .box-2{}
