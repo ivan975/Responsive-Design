@@ -1,55 +1,64 @@
-   /* $gap:4vh;
+/* $gap:4vh;
 $padding:4vh;
 $color:#48CAE5; */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-size: 45px;
     width: 100%;
     min-height: 100vh;
-    /* padding: 4vh; */
-}
-.container{
-    display: grid;
-    grid-template-areas: 
-    "A A A A    A A A A     A A A A"
-    "B B B B     B B B B       B B E E"
-    "C C D D    D D D D       D D D D";
-    height: calc(100vh - 4vh*2);
-    gap: 4vh;
-}
-[class^="box-"]{
-    display: grid;
-    place-content: center;
-    background-color: #c1c1c1;
-    border: 4px solid #48CAE5;
-    border-radius: 10px;
-}
-.box-1{
-    grid-area: A;
-}
-.box-2{
+  }
+  .container{
+      display: grid;
+      grid-template-areas: 
+      "A A A A    A A A A    A A A A"
+      "B B C  C     C C C C     C C D D "
+      "B B C  C     C C C C     C C D D "
+      "B B C  C     C C C C     C C D D "
+      "B B C  C     C C C C     C C D D "
+      "E E E E      E E E E     E E E E ";
+      gap: 4vh;
+      height: calc(100vh - 4vh*2);
+  }
+  [class^="box-"]{
+      display: grid;
+      place-content: center;
+      background-color: #c1c1c1;
+      border: 4px solid #48CAE5;
+      border-radius: 10px;
+  }
+  .box-1{
+      grid-area: A;
+  }
+  .box-2{
     grid-area: B;
-}
-.box-3{
+  }
+  .box-3{
     grid-area: C;
+  }
+  .box-4{
+      grid-area: D;
 }
-.box-4{
-    grid-area: D;
-}
-.box-5{
+  .box-5{
     grid-area: E;
-}
-@media (max-width:480px){
-    .container{
+  }
+  @media (max-width:480px){
+      .container{
         grid-template-areas: 
-        "A A A A    A A A A     A A A A"
-        "B B B B      B B B B      B B  B B"
-        "E E E E      E E E E      E E E E "
-        "C C C C      C C D D      D D D D";
-    }
-}
+        "A A A A    A A A A    A A A A"
+        "C C C  C     C C C C     C C C C "
+        "C C C  C     C C C C     C C C C "
+        "C C C  C     C C C C     C C C C "
+        "C C C  C     C C C C     C C C C "
+        "D D D D    D D D D    D D D D"
+        "E E E E      E E E E     E E E E ";
+      }
+      .box-2{
+          display: none;
+      }
+  }
