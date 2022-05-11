@@ -21,8 +21,7 @@ body{
     min-height: 100vh;
     display: grid;
     gap: 20px;
-    grid-template: repeat(2,200px) / repeat(2,200px);
-    align-items: start;
+    grid-template: repeat(12,1fr) / repeat(12,1fr);
 }
 /* .box-1{}
 .box-2{}
