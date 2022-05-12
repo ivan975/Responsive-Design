@@ -13,40 +13,4 @@ body{
 }
 .container{
     height: 100vh;
-    border: 4px solid rebeccapurple;
-    
-    display: grid;
-    place-content: center;
 }
-#size{
-    color: red;
-}
-
-/* mobile approach */
-
-@media (min-width:576px){}
-@media (min-width:768px){}
-@media (min-width:992px){}
-@media (min-width:1200px){}
-
-/* Desktop approach */
-/* @media (max-width:1200px){
-    .container{
-        background-color:rebeccapurple;
-    }
-}
-@media (max-width:992px){
-    .container{
-        background-color:red;
-    }
-}
-@media (max-width:768px){
-    .container{
-        background-color:gold;
-    }
-}
-@media (max-width:576px){
-    .container{
-        background-color:greenyellow;
-    }
-} */
