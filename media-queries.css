@@ -2,15 +2,48 @@
     $tablet  -> 768px
     $laptop  -> 992px
     $desktop -> 1200px */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 45px;
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.container{
-    height: 100vh;
+.container {
+  height: 100vh;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10%;
+  border: 5px solid rgb(221, 39, 19);
+}
+.navbar__links{
+    display: flex;
+    font-size: 2.5vw;
+    gap:15px;   
+}
+.navbar__logo{
+    font-size: 4vw;
+}
+.main {
+    display: flex;
+    height: 80%;
+    border: 5px solid gold;
+}
+.main__img{
+    background-image: url(./images/Portrait.png);
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.main__text{
+    width: 50%;
+}
+.footer {
+    height: 10%;
+    border: 5px solid rebeccapurple;
 }
